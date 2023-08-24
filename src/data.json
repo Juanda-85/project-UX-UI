@@ -1,0 +1,144 @@
+[
+    
+      {
+        "id": "001",
+        "name": "Blaster X1",
+        "description": "A futuristic blaster with flashing lights and sound effects.",
+        "in_stock": true,
+        "price": "$24.99"
+      },
+      {
+        "id": "002",
+        "name": "Retro Raygun 5000",
+        "description": "An old-school raygun design with colorful LED lights.",
+        "in_stock": true,
+        "price": "$19.99"
+      },
+      {
+        "id": "003",
+        "name": "Stealth Dartmaster",
+        "description": "A sleek pistol-style dart blaster for covert missions.",
+        "in_stock": false,
+        "price": "$29.99"
+      },
+      {
+        "id": "004",
+        "name": "Galactic Phaser E10",
+        "description": "An intergalactic phaser replica with adjustable power settings.",
+        "in_stock": true,
+        "price": "$34.99"
+      },
+      {
+        "id": "005",
+        "name": "Mega Slinger ZR",
+        "description": "A shoulder-fired mega slingshot for launching foam balls.",
+        "in_stock": true,
+        "price": "$22.99"
+      },
+      {
+        "id": "006",
+        "name": "Camouflage Recon Blaster",
+        "description": "A camo-themed blaster with scope and detachable barrel.",
+        "in_stock": true,
+        "price": "$27.99"
+      },
+      {
+        "id": "007",
+        "name": "Pirate Flintlock Pistol",
+        "description": "A pirate-themed flintlock pistol with realistic firing sounds.",
+        "in_stock": true,
+        "price": "$16.99"
+      },
+      {
+        "id": "008",
+        "name": "Firestorm Gatling",
+        "description": "A rotating-barrel dart blaster with rapid-fire action.",
+        "in_stock": false,
+        "price": "$39.99"
+      },
+      {
+        "id": "009",
+        "name": "Alien Disintegrator",
+        "description": "An alien-designed blaster that lights up and vibrates.",
+        "in_stock": true,
+        "price": "$31.99"
+      },
+      {
+        "id": "010",
+        "name": "Zombie Hunter Crossbow",
+        "description": "A crossbow-style blaster for battling hordes of toy zombies.",
+        "in_stock": true,
+        "price": "$28.99"
+      },
+      {
+        "id": "011",
+        "name": "Supersonic Space Pistol",
+        "description": "A space-themed blaster that emits supersonic sound effects.",
+        "in_stock": true,
+        "price": "$26.99"
+      },
+      {
+        "id": "012",
+        "name": "Ninja Stealth Shuriken Shooter",
+        "description": "A shuriken-shaped blaster for ninja-inspired play.",
+        "in_stock": true,
+        "price": "$23.99"
+      },
+      {
+        "id": "013",
+        "name": "Tactical Paintball Pistol",
+        "description": "A paintball-style blaster for competitive target shooting.",
+        "in_stock": true,
+        "price": "$32.99"
+      },
+      {
+        "id": "014",
+        "name": "Camo Commando Rifle",
+        "description": "A rifle-style blaster with adjustable stock and camouflage design.",
+        "in_stock": true,
+        "price": "$37.99"
+      },
+      {
+        "id": "015",
+        "name": "Explorer's Adventure Shotgun",
+        "description": "A shotgun-style blaster for epic outdoor adventures.",
+        "in_stock": true,
+        "price": "$29.99"
+      },
+      {
+        "id": "016",
+        "name": "Phantom Phantomizer",
+        "description": "A blaster that makes spooky ghost sounds and emits mist.",
+        "in_stock": true,
+        "price": "$21.99"
+      },
+      {
+        "id": "017",
+        "name": "Police Patrol Pistol",
+        "description": "A police-themed blaster with handcuff attachment and siren sounds.",
+        "in_stock": true,
+        "price": "$24.99"
+      },
+      {
+        "id": "018",
+        "name": "Jungle Safari Dart Rifle",
+        "description": "A rifle-style dart blaster for wildlife-themed adventures.",
+        "in_stock": true,
+        "price": "$33.99"
+      },
+      {
+        "id": "019",
+        "name": "Rocket Launcher XL",
+        "description": "A rocket launcher blaster with foam rockets and launching mechanism.",
+        "in_stock": true,
+        "price": "$44.99"
+      },
+      {
+        "id": "020",
+        "name": "Ultimate Laser Targeter",
+        "description": "A target-oriented blaster that emits laser beams for accuracy training.",
+        "in_stock": true,
+        "price": "$25.99"
+      }
+    ]
+  
