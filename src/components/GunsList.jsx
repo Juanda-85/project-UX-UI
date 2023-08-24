@@ -1,40 +1,41 @@
-import gunsJson from "./../data.json" 
-import { useState } from "react";
+import React, { useState } from "react";
 import GunsDisplay from "./GunsDisplay";
+import gunsJson from "./../data.json";
 
-function GunsList (){
+function GunsList() {
+  const [guns, setGuns] = useState(gunsJson);
+  const [addedGuns, setAddedGuns] = useState(0);
 
-  const [guns, setGuns] = useState(gunsJson)
+  const toggleAddedToCart = (id) => {
+    const gunsCopy = [...guns];
 
-  
- 
-    return (
-      <div>
-        <h1>GUNS'R'US</h1>
+    gunsCopy.forEach((gun) => {
+      if (gun._id === id) {
+        gun.isAdded = gun.isAdded ? false : true;
+
+        if (gun.isAdded) setAddedGuns(addedGuns + 1);
+        else setAddedGuns(addedGuns - 1);
+      }
+    });
+
+    setGuns(gunsCopy);
+  };
+
+  return (
+    <div>
+      <h1>GUNS'R'US</h1>
       {guns.map((gun) => {
         return (
-          <GunsDisplay key={gun.id} gun={gun}/>
-        )
+          <GunsDisplay
+            key={gun._id}
+            gun={gun}
+            toggleAddedToCart={toggleAddedToCart}
+          />
+        );
       })}
-      </div>
-    );
-  };
-  
-  export default GunsList;
-  
-  
-  {/* <Search SearchForGun={SearchForGun}/> */}
-    // function SearchForGun (string) {
-  //     let searchedGuns; 
+      <p>Total Guns in Cart: {addedGuns}</p>
+    </div>
+  );
+}
 
-  //     if (string === "") {
-  //         searchedGuns = gunsFound
-  //     }
-  //     else {
-  //         searchedGuns = gunsFound.filter((gun) => {
-  //             return gun.name.match(string)
-  //         })
-  //     }
-
-  //     setGuns(searchedGuns)
-  // }
+export default GunsList;
