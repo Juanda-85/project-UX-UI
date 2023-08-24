@@ -1,13 +1,14 @@
 import './App.css'
 import GunsList from './components/GunsList'
+import NavBar from './components/NavBar'
 
 function App() {
 
   return (
-    <>
+    <div className="App">
+      <NavBar/>
       <GunsList/>
-      <p>Hello</p>
-    </>
+    </div>
   )
 }
 

@@ -5,15 +5,8 @@ import GunsDisplay from "./GunsDisplay";
 function GunsList (){
 
   const [guns, setGuns] = useState(gunsJson)
-  // const [gunsFound, setGunsFound] = useState(gunsJson)
 
-
-  // function AddToCart() {
-  //   return (
-      
-  //   )
-  // }
-
+  
  
     return (
       <div>
