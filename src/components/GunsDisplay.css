@@ -1,0 +1,77 @@
+.pageContainer {
+    margin: 30px 0 0 30px;
+    font-family: fantasy;
+    color:rgba(10, 20, 3, 0.897)
+}
+
+.pageContainer h1 {
+    letter-spacing: 4px;
+    font-size: 3em;
+}
+
+.gunsDisplay {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gunsDisplayContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1.5px solid #093001a1;
+    border-radius: 24px;
+    background-color: white;
+    margin: 20px;
+    width: 360px;
+    height: 300px;
+    box-shadow: 3px 2px 5px rgba(15, 33, 2, 0.699);
+}
+
+.notInStock {
+    position: relative;
+    color: rgb(90, 13, 13);
+}
+
+.notInStock::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 65, 20, 0.5);
+    z-index: 1;
+    border-radius: 24px;
+}
+
+.gunsDisplayContainer img {
+    height: 150px;
+}
+
+.gunsDisplayContainer h4 {
+    height: 25px;
+    margin: 3px;
+}
+
+.innerDiv {
+    margin-top: 5px;
+    padding: 0;
+    height: 20px;
+}
+
+.one {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btnDiv {
+    display: flex;
+    align-items: end;
+}
