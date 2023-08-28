@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import GunsDisplay from "./GunsDisplay";
 import gunsJson from "./../data.json";
+import "./GunsDisplay.css"
 
 function GunsList() {
   const [guns, setGuns] = useState(gunsJson);
@@ -22,19 +23,25 @@ function GunsList() {
   };
 
   return (
+
     <div>
-      <h1>GUNS'R'US</h1>
-      {guns.map((gun) => {
-        return (
-          <GunsDisplay
-            key={gun._id}
-            gun={gun}
-            toggleAddedToCart={toggleAddedToCart}
-          />
-        );
-      })}
-      <p>Total Guns in Cart: {addedGuns}</p>
+      <div className="pageContainer"> 
+        <h1>GUNS'R'US</h1>
+        <p>Total Guns in Cart: {addedGuns}</p>
+      </div>
+      <div className="gunsDisplay">
+        {guns.map((gun) => {
+          return (
+            <GunsDisplay
+              key={gun._id}
+              gun={gun}
+              toggleAddedToCart={toggleAddedToCart}
+            />
+          );
+        })}
+      </div>
     </div>
+
   );
 }
 
